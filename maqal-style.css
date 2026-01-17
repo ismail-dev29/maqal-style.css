@@ -1,0 +1,100 @@
+/* ====== Maqal Library for Blogger ====== */
+
+/* ----- جسم المقال ----- */
+.post-body,
+.entry-content,
+.item-post-resizer {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 25px;
+  line-height: 1.9;
+  font-size: 17px;
+  color: #222;
+  text-align: right;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.05);
+}
+
+/* ----- صندوق مميز داخل المقال ----- */
+.maqal-box {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 25px 0;
+}
+
+/* ----- عنوان داخل الصندوق ----- */
+.maqal-box-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+/* ----- زر اقرأ المزيد / المقال بالكامل ----- */
+.maqal-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(to right,#2563eb,#1e40af);
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all .3s ease;
+}
+
+.maqal-btn:hover {
+  background: linear-gradient(to right,#1e40af,#1e3a8a);
+  transform: translateY(-2px);
+}
+
+/* ----- زر بسيط ثانوي ----- */
+.maqal-btn-outline {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all .3s ease;
+}
+
+.maqal-btn-outline:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+/* ----- تنبيه أو ملاحظة ----- */
+.maqal-note {
+  background: #fff7ed;
+  border-right: 5px solid #fb923c;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/* ----- قائمة منسقة ----- */
+.maqal-list {
+  padding-right: 20px;
+  margin: 15px 0;
+}
+
+.maqal-list li {
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+/* ----- تحسين للهواتف ----- */
+@media (max-width: 768px) {
+  .post-body,
+  .entry-content {
+    padding: 18px;
+    font-size: 16px;
+  }
+}
